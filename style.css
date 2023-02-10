@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h1::first-letter{
+    font-size: 70px;
+    color: black;
+}
+
+.navegation{
+    width: 100%;
+    text-align: center;
+}
+
+.navegation a:hover{
+    background-color: yellow;
+}
+
+.wrapper-parrafos p::first-line{
+    color: red;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+.enlaces a{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.enlaces a:visited{
+    background-color: blue;
+    color: white;
+}
+
+li{
+    list-style: decimal;
+    margin: 10px;
+}
+
+img{
+    float: right;
+}
+
+#wiki{
+    font-style: italic;
+}
